@@ -16,3 +16,22 @@
     let retorno: void
     let retornoView: any = "Qualquer retorno não previsível"
 
+//objeto imprevisível
+    let produto: object = {
+        name: "Yago",
+        cidade: "ma",
+        idade: 28,
+    };
+
+//objeto tipado - completamente previsível
+    type ProdutoLoja = {
+        nome: string;
+        preco: number;
+        unidades: number;
+    };
+
+    let meuProduto: ProdutoLoja = {
+        nome: "Tênis",
+        preco: 89.99,
+        unidades: 5,
+    };
