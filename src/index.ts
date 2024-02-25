@@ -51,3 +51,16 @@
      */
 
     let boleto: [string, number, number] = ["água conta", 199.90, 32342342];
+
+    /**
+     * Métodos com array
+     */
+
+    dados.pop();
+
+    /**
+     * Datas
+     */
+
+    let aniversario: Date = new Date("2024-08-10 06:00");
+    console.log(aniversario.toString());
