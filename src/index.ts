@@ -35,3 +35,19 @@
         preco: 89.99,
         unidades: 5,
     };
+
+    /**
+     * Arrays
+     */
+
+    let dados: string[] = ["Yago", "Lisboa"];
+    let dados2: Array<string> = ["Yago", "Lisboa"];
+
+    //Arrays Multi Types
+    let tipos: (string | number)[] = ["Yago", 28];
+
+    /**
+     * Tuplas
+     */
+
+    let boleto: [string, number, number] = ["água conta", 199.90, 32342342];
